@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+select, input[type="number"], button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #ff0;
+    color: #333;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffdb4d;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Adicione essas regras para posicionar o leaderboard na direita */
+table:last-of-type {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: auto;
+}
+
+table:last-of-type th, table:last-of-type td {
+    padding: 4px;
+}
+
+table:last-of-type input[type="number"] {
+    width: 50px;
+}
